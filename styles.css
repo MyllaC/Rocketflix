@@ -1,0 +1,82 @@
+/* ===== GERAL ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background: var(--background);
+}
+
+header img {
+  height: 6.293rem;
+  width: 8.724rem;
+
+  margin-top: 13rem;
+}
+
+header h1 {
+  color: var(--title);
+  font-size: 4rem;
+  font-weight: 700;
+
+  margin-top: 1.07rem;
+}
+
+#find-movie-button {
+  margin-inline: auto; /*deixa o botão no meio*/
+
+  background: var(--bg-button);
+
+  margin-top: 2.6rem;
+
+  border: none;
+
+  border-radius: 0.5rem;
+  width: fit-content;
+  padding: 1.4rem 1.6rem;
+  height: 4.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+
+  cursor: pointer;
+}
+
+#instructions {
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  color: var(--title);
+
+  margin-top: 2.6rem;
+}
