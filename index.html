@@ -29,10 +29,23 @@
       <h1>Não sabe o que assistir?</h1>
     </header>
 
-    <div id="movie"></div>
+    <div id="movie-box">
+      <img
+        src="https://images.unsplash.com/photo-1652297889892-8d8a0295a284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        alt=""
+      />
+      <div class="movie-info">
+        <div class="movie-title">Movie Title</div>
+        <div class="movie-summary">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
+          rerum ipsam ratione perspiciatis, asperiores exercitationem nesciunt
+          veritatis voluptates autem repellat, maxime iusto? Doloribus dicta
+          inventore omnis qui quas? Iste, odit?
+        </div>
+    </div>
 
-    <div>
-      <button id="find-movie-button" type="button">
+    <div id="main">
+      <button id="find-movie-button" onclick="getMovie()">
         <img
           src="./assets/favico/favicon-16x16.png"
           alt="logo com duas setas"
@@ -45,6 +58,6 @@
       </p>
     </div>
 
-    <script type="module" src="main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

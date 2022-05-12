@@ -31,6 +31,8 @@ body {
   background: var(--background);
 }
 
+/* ===== HEADER ===== */
+
 header img {
   height: 6.293rem;
   width: 8.724rem;
@@ -45,6 +47,10 @@ header h1 {
 
   margin-top: 1.07rem;
 }
+
+/* ===== MOVIE ===== */
+
+/* ===== MAIN ===== */
 
 #find-movie-button {
   margin-inline: auto; /*deixa o botão no meio*/
