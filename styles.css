@@ -171,6 +171,10 @@ header h1 {
     padding: 1rem;
   }
 
+  #movie-box.show-movie #movie-title {
+    padding: 1rem;
+  }
+
   #movie-box.show-movie #movie-summary {
     font-weight: 400;
     font-size: 1.1rem;
