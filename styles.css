@@ -168,6 +168,7 @@ header h1 {
     height: 24.37rem;
 
     margin-bottom: 2rem;
+    padding: 1rem;
   }
 
   #movie-box.show-movie #movie-summary {
@@ -178,7 +179,7 @@ header h1 {
     color: var(--title);
     justify-content: center;
     text-align: justify;
-    padding-left: 3rem;
+    padding: 1rem;
   }
 
   #find-movie-button {
