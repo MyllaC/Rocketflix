@@ -28,35 +28,38 @@
       />
       <h1>Não sabe o que assistir?</h1>
     </header>
-
-    <div id="movie-box">
-      <img
-        src="https://images.unsplash.com/photo-1652297889892-8d8a0295a284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-        alt=""
-      />
-      <div class="movie-info">
-        <div class="movie-title">Movie Title</div>
-        <div class="movie-summary">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
-          rerum ipsam ratione perspiciatis, asperiores exercitationem nesciunt
-          veritatis voluptates autem repellat, maxime iusto? Doloribus dicta
-          inventore omnis qui quas? Iste, odit?
-        </div>
-    </div>
-
-    <div id="main">
-      <button id="find-movie-button" onclick="getMovie()">
+    
+    <main>
+      <div id="movie-box">
         <img
-          src="./assets/favico/favicon-16x16.png"
-          alt="logo com duas setas"
+          id="movie-image"
+          src="https://images.unsplash.com/photo-1652297889892-8d8a0295a284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt="cartaz do filme"
         />
-        <p>Encontrar filme</p>
-      </button>
-      <p id="instructions">
-        Clique em "Encontrar filme" que traremos informações de algum filme para
-        você assistir hoje.
-      </p>
-    </div>
+        <div class="movie-info">
+          <h2 id="movie-title">Movie Title</h2>
+          <p id="movie-summary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
+            rerum ipsam ratione perspiciatis, asperiores exercitationem nesciunt
+            veritatis voluptates autem repellat, maxime iusto? Doloribus dicta
+            inventore omnis qui quas? Iste, odit?
+          </p>
+        </div>
+      </div>
+      <div id="get-movie">
+        <button id="find-movie-button" onclick="getMovie()">
+          <img
+            src="./assets/favico/favicon-16x16.png"
+            alt="logo com duas setas"
+          />
+          <p>Encontrar filme</p>
+        </button>
+        <p id="instructions">
+          Clique em "Encontrar filme" que traremos informações de algum filme
+          para você assistir hoje.
+        </p>
+      </div>
+    </main>
 
     <script type="module" src="./main.js"></script>
   </body>
