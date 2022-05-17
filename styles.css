@@ -49,10 +49,15 @@ header h1 {
   font-weight: 700;
 
   margin-top: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 /* ===== MOVIE-BOX ===== */
 #movie-box {
+  display: none;
+}
+
+#movie-box.show-movie {
   margin-inline: auto;
 
   display: flex;
@@ -64,12 +69,12 @@ header h1 {
   justify-content: center;
 }
 
-#movie-image {
+#movie-box.show-movie #movie-image {
   width: 17.1rem;
   height: 24.37rem;
 }
 
-#movie-title {
+#movie-box.show-movie #movie-title {
   font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
@@ -77,7 +82,7 @@ header h1 {
   color: var(--title);
 }
 
-#movie-summary {
+#movie-box.show-movie #movie-summary {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -94,8 +99,6 @@ header h1 {
   margin-inline: auto; /*deixa o botão no meio*/
 
   background: var(--bg-button);
-
-  margin-top: 0.5rem;
 
   border: none;
 
