@@ -16,7 +16,7 @@ function getMovie() {
 }
 
 function displayMovie(data) {
-  if (data.vote_average > 5) {
+  if ((data.vote_average > 5) & (data.overview != '')) {
     const movieTitle = document.getElementById('movie-title')
     const movieSummary = document.getElementById('movie-summary')
     const movieImage = document.getElementById('movie-image')
