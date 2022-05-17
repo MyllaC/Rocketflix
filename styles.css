@@ -80,7 +80,6 @@ header h1 {
 #movie-box.show-movie #movie-title {
   font-weight: 700;
   font-size: 1.8rem;
-  line-height: 3rem;
 
   margin-top: 0.5rem;
   justify-content: center;
@@ -93,7 +92,6 @@ header h1 {
 #movie-box.show-movie #movie-summary {
   font-weight: 400;
   font-size: 1.1rem;
-  line-height: 2.4rem;
 
   color: var(--title);
   justify-content: center;
