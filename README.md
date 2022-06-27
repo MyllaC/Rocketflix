@@ -3,7 +3,7 @@
 # 💻 Sobre a aplicação
 
 ---
-Essa aplicação é um dos desafios propostos pela trilha Discover da @RocketSeat. A plicação utiliza a API do [themoviedb.org](http://themoviedb.org/) para exibir um filme aleatório sempre que clicar em Encontrar Filme.
+Essa aplicação é um dos desafios propostos pela trilha Discover da @RocketSeat. A aplicação utiliza a API do [themoviedb.org](http://themoviedb.org/) para exibir um filme aleatório sempre que clicar em Encontrar Filme.
 
 ## Layout
 
